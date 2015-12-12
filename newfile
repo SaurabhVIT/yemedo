@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+	<title>Reminder</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8"/> 
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="mahi.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    </head>
+	<body class="bc">
+<div class="container ">
+<div class="row ">
+  <div class="col-md-4 "></div>
+    <from action="list.php" method="post">
+  <div class="col-md-4  ">
+  <div class="panel panel-heading rcorners1 bd tpmg ">
+  <div class="panel-body ">
+  <div class="page-header ">
+ <div class="row text-center" style="height:100px">
+     <img src="img/medicine.png" />
+</div>
+  </div>
+</div>
+<div>                       
+<input class="myButton mg" type="button" onClick="e_presc();" value="E-Presc"><input class="myButton mg" type="button" onClick="manual();" value="Manual">
+</div>
+</from>
+</div>
+</body>
+</html>
